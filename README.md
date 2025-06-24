@@ -9,13 +9,7 @@ You explore three levels of complexity:
 
 Project Structure
 -----------------
-.
-├── Section_List.csv               # Dataset with columns: Category 1, Section Name
-├── section_retriever_faiss.py     # Version 1: Requires known category
-├── section_retriever_faiss_infer.py  # Version 2: Infers category using FAISS
-├── section_retriever_zero_shot.py    # Version 3: Infers category using zero-shot classification
-├── README.md                      # You are here
-└── *.faiss.index / *.pkl          # Auto-saved FAISS indices and mappings per category
+<pre lang="markdown"> ### Project Structure ``` . ├── Section_List.csv # Dataset with columns: Category 1, Section Name ├── section_retriever_faiss.py # Version 1: Requires known category ├── section_retriever_faiss_infer.py # Version 2: Infers category using FAISS ├── section_retriever_zero_shot.py # Version 3: Zero-shot category classification ├── README.md # You are here └── *.faiss.index / *.pkl # Auto-saved FAISS indices and mappings per category ``` </pre>
 
 Use Cases & Methods
 -------------------
