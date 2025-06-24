@@ -1,0 +1,27 @@
+# VSCode config
+.vscode/
+
+# Python cache and venv
+__pycache__/
+*.pyc
+ragv/
+
+# Logs and outputs
+logs/
+*.log
+
+# Data/model artifacts created by code
+*.pkl
+*.index
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.csv
